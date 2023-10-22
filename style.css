@@ -71,8 +71,16 @@
 }
 
 .ex-7-img:hover{
-    width: 500px;
-    height: 500px;
+    animation: step 2s;
+}
+
+@keyframes step {
+    50%{
+        filter: sepia(0.8);
+    }
+    100%{
+        filter: sepia(0);
+    }
 }
 
 .ex-8-img:hover{
